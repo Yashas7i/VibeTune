@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Pastel Theme */
+:root {
+  --pastel-peach: #ffe5b4;
+  --pastel-blue: #a3d5ff;
+  --pastel-purple: #d0bfff;
+  --pastel-green: #c3fbd8;
+}
+
+.bg-pastel-peach { background-color: var(--pastel-peach); }
+.bg-pastel-blue { background-color: var(--pastel-blue); }
+.bg-pastel-green { background-color: var(--pastel-green); }
+.text-pastel-purple { color: var(--pastel-purple); }

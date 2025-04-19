@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rkmGZEECPQboqFNCwPGZd2wehPkBQ33jVudGuC0T9Tk=",
+  "Source": "VibeTune.Api",
+  "BasePath": "_content/VibeTune.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
