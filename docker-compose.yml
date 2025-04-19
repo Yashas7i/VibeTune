@@ -1,18 +1,25 @@
-version: '3.9'
+version: '3.8'
 
 services:
-  backend:
-    build:
-      context: ./VibeTune.Api
-    ports:
-      - "5000:80"
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-
   frontend:
     build:
       context: ./VibeTune.Frontend
+      dockerfile: Dockerfile
     ports:
-      - "3000:80"
-    depends_on:
-      - backend
+      - "80:80"
+    networks:
+      - app-network
+
+  backend:
+    build:
+      context: ./VibeTune.Api
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
