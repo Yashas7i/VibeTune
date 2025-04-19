@@ -3,6 +3,10 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <!-- No need to manually list Microsoft.AspNetCore.App when using the Web SDK -->
 </Project>
+
+
