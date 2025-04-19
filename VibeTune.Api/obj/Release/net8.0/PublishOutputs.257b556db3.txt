@@ -1,0 +1,7 @@
+/workspaces/VibeTune/VibeTune.Api/out/VibeTune.Api
+/workspaces/VibeTune/VibeTune.Api/out/appsettings.Development.json
+/workspaces/VibeTune/VibeTune.Api/out/appsettings.json
+/workspaces/VibeTune/VibeTune.Api/out/VibeTune.Api.dll
+/workspaces/VibeTune/VibeTune.Api/out/VibeTune.Api.deps.json
+/workspaces/VibeTune/VibeTune.Api/out/VibeTune.Api.runtimeconfig.json
+/workspaces/VibeTune/VibeTune.Api/out/VibeTune.Api.pdb
