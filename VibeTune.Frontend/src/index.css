@@ -8,9 +8,80 @@
   --pastel-blue: #a3d5ff;
   --pastel-purple: #d0bfff;
   --pastel-green: #c3fbd8;
+  --soft-beige: #f1e0c6; /* Soft beige color for buttons */
 }
 
 .bg-pastel-peach { background-color: var(--pastel-peach); }
 .bg-pastel-blue { background-color: var(--pastel-blue); }
 .bg-pastel-green { background-color: var(--pastel-green); }
 .text-pastel-purple { color: var(--pastel-purple); }
+.bg-soft-beige { background-color: var(--soft-beige); }
+
+/* Gradient corners with soft color splashes */
+.bg-gradient-corners {
+  background: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-gradient-corners::before {
+  content: "";
+  position: absolute;
+  top: -15%;
+  right: -10%;
+  width: 50%;
+  height: 50%;
+  background: linear-gradient(135deg, #ffe5b4, #a3d5ff);
+  opacity: 0.6;
+  border-radius: 50%;
+}
+
+.bg-gradient-corners::after {
+  content: "";
+  position: absolute;
+  bottom: -10%;
+  left: -10%;
+  width: 50%;
+  height: 50%;
+  background: linear-gradient(135deg, #d0bfff, #c3fbd8);
+  opacity: 0.6;
+  border-radius: 50%;
+}
+
+/* Button Styling */
+button {
+  font-size: 1.25rem; /* Increase font size of buttons */
+  padding: 1rem 2rem; /* Increase padding for buttons */
+  border-radius: 1.5rem; /* Make the buttons rounded */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05); /* Add subtle scaling effect on hover */
+  background-color: #c3fbd8; /* Change color to pastel green on hover */
+}
+
+/* General Typography */
+h1 {
+  font-size: 4rem; /* Increase heading font size */
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5rem; /* Increase paragraph font size */
+}
+
+/* List Styling */
+ul {
+  padding-left: 2rem; /* Add left padding for list items */
+  font-size: 1.25rem; /* Increase font size of list items */
+}
+
+li {
+  transition: color 0.2s ease;
+}
+
+li:hover {
+  color: var(--pastel-purple); /* Hover effect on list items */
+}
