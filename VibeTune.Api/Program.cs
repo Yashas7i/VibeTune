@@ -42,7 +42,6 @@ app.MapGet("/recommend", ([FromQuery] string mood) =>
 app.Run("http://0.0.0.0:5000");
 
 
-app.Run("http://0.0.0.0:5196");
 
 
 
