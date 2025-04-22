@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "rkmGZEECPQboqFNCwPGZd2wehPkBQ33jVudGuC0T9Tk=",
+  "Hash": "5BrvN9BBzLo8vG+A//YVQzTtO0HMyPtJXqyY/PWbapw=",
   "Source": "VibeTune.Api",
   "BasePath": "_content/VibeTune.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
